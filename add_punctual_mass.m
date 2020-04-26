@@ -3,7 +3,7 @@ function M = add_punctual_mass(Mbig,Mp,vec_mp)
 %Mp is matrix (3,3,#puntual masses)
 %vec_mp is a vector with the keypoints where every mass is located
 
-for i=1:size(vec_mp)
+for i=1:length(vec_mp)
          
     T1 = zeros(size(Mbig,1),3); 
    
